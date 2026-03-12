@@ -14,6 +14,7 @@ img {
     width: 30%
 }
 button {
+    color: #c9ced6;
     display: flex;
     top: auto;
     padding: 10px;
@@ -27,4 +28,9 @@ button {
 #passos {
     margin: 5px;
     padding: auto;
+}
+#note {
+    margin: 5px;
+    margin-bottom: 30px;
+    padding-top: 10px;
 }
