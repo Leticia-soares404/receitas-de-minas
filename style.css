@@ -1,16 +1,26 @@
 * {
     margin: 0;
-    border: 0px;
+    border: 10px;
 }
 
 .titulo {
-    align-items: center;
-}
-
-#pao-de-queijo {
-
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    flex-direction: column;
+}
+img {
+    width: 30%
+}
+button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+#ingredientes {
+    margin: auto;
+    padding: 50px;
 }
