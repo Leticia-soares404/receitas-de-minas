@@ -1,8 +1,12 @@
 * {
+    z-index: 10;
     margin: 0;
     border: 10px;
 }
-
+body {
+    background-image: linear-gradient(180deg, #fca960, #fadbc0);
+    background-repeat: no-repeat;
+}
 .titulo {
     display: flex;
     text-align: center;
@@ -11,14 +15,18 @@
     flex-direction: column;
 }
 img {
-    width: 30%
+    width: 30%;
+    margin-right: -11%;
 }
 button {
-    color: #c9ced6;
+    z-index: 15;
+    color: #ffe9d6;
+    float: right;
     display: flex;
     top: auto;
     padding: 10px;
-    margin: 10px;
+    margin-top: auto;
+    margin-left: auto;
     left: auto;
 }
 #ingredientes {
