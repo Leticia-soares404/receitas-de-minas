@@ -15,12 +15,16 @@ img {
 }
 button {
     display: flex;
-    text-align: center;
-    justify-content: center;
+    top: auto;
     padding: 10px;
     margin: 10px;
+    left: auto;
 }
 #ingredientes {
     margin: auto;
     padding: 50px;
+}
+#passos {
+    margin: 5px;
+    padding: auto;
 }
