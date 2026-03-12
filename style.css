@@ -6,3 +6,11 @@
 .titulo {
     align-items: center;
 }
+
+#pao-de-queijo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
